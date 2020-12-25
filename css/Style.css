@@ -7,6 +7,11 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    background-image: url("/Images/pexels-tom-fisk-6186414.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .row{
 height: 100%;
@@ -18,9 +23,7 @@ justify-content: center;
     font-weight: bold;
 }
 
-.container{
- height: 100vh;
-}
+
 
 .logincard{
 height: 500px;
@@ -60,13 +63,15 @@ width: 500px;
 
 .card-title{
     font-weight: bolder;
-    font-size:x-large;
+    font-size:x-large; 
 }
 
 @media (max-width: 500px) {
     .card{
-        width: 340px;
+        width: 350px;       
         margin: auto;
-       
     }
+  }
+  .container{
+    height: 100vh; /* You must set a specified height */
   }
