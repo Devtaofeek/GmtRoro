@@ -70,6 +70,8 @@ width: 500px;
     .card{
         width: 350px;       
         margin: auto;
+        position: relative;
+        bottom: 40px;
     }
   }
   .container{
