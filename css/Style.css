@@ -62,3 +62,10 @@ width: 500px;
     font-weight: bolder;
     font-size:x-large;
 }
+
+@media (max-width: 500px) {
+    .card{
+        margin: 20px;
+       
+    }
+  }
